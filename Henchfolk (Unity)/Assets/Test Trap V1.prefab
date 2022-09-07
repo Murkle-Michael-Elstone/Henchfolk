@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4522256566844497698}
   - component: {fileID: 4522256566844497699}
   - component: {fileID: 4522256566844497724}
+  - component: {fileID: 1346533308989701101}
   m_Layer: 0
   m_Name: Test Trap V1
   m_TagString: Untagged
@@ -705,7 +706,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -733,7 +734,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 0
+    handleFixedUpdate: 1
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -741,7 +742,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!50 &4522256566844497724
 Rigidbody2D:
   serializedVersion: 4
@@ -763,6 +764,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1346533308989701101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4522256566844497725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 4522256566844497699}
 --- !u!1 &4522256566986939416
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,6 +788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4522256566986939422}
   - component: {fileID: 4522256566986939423}
+  - component: {fileID: 5206873652868365831}
   m_Layer: 0
   m_Name: Latcher
   m_TagString: Untagged
@@ -810,6 +826,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &5206873652868365831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4522256566986939416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs: []
 --- !u!1 &4522256567693649681
 GameObject:
   m_ObjectHideFlags: 0

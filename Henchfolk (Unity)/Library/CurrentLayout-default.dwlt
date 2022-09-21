@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 1077, y: 442}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 787
+  controlID: 196
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1927
     height: 1307
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 801, y: 442}
+  m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 788
+  controlID: 197
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 51
+  controlID: 198
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: FsmEditorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -247,14 +247,14 @@ MonoBehaviour:
     y: 793
     width: 1927
     height: 514
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 801, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 0
+  m_Selected: 2
   m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
@@ -275,8 +275,8 @@ MonoBehaviour:
     y: 0
     width: 633
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -402,7 +402,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 64fbffff12530000
+      m_ExpandedIDs: 64fbffff22540000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -462,9 +462,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.6859167, y: 0.2950022, z: -146.28835}
+    m_Target: {x: 28.97926, y: -6.394181, z: -177.13232}
     speed: 2
-    m_Value: {x: -2.6859167, y: 0.2950022, z: -146.28835}
+    m_Value: {x: 28.97926, y: -6.394181, z: -177.13232}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -515,9 +515,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.2603872
+    m_Target: 11.831069
     speed: 2
-    m_Value: 3.2603872
+    m_Value: 11.831069
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -666,22 +666,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sprites
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\Henchfolk\Henchfolk (Unity)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e0560000
-    m_LastClickedID: 22240
-    m_ExpandedIDs: 00000000dc550000de550000e0550000e2550000e455000000ca9a3b
+    m_SelectedIDs: 6e560000
+    m_LastClickedID: 22126
+    m_ExpandedIDs: 000000003c5600003e560000405600004256000044560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -709,7 +709,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc550000de550000e0550000e2550000e4550000
+    m_ExpandedIDs: 000000003c5600003e560000405600004256000044560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -734,10 +734,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 34530000
+    m_LastClickedInstanceID: 21300
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000ca690000c05500003e53000028540000
+    m_ExpandedInstanceIDs: c6230000ca690000c05500003e5300002454000028540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -753,7 +753,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 4}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -828,49 +828,119 @@ MonoBehaviour:
       zoom: 1
     selectionHistory:
       backList:
-      - fsmComponentID: 21280
+      - fsmComponentID: 21328
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 21278
+      - fsmComponentID: 21304
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 21276
+      - fsmComponentID: -1234
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -1210
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 21396
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -1186
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 21422
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 20996
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       forwardList: []
       selectionCache:
-      - fsmComponentID: 21276
+      - fsmComponentID: -1234
+        fsmTemplate: {fileID: 0}
+        stateName: Set Is Kinematic 2d
+        stateNames:
+        - Set Is Kinematic 2d
+        transitionIndex: -1
+        scrollPosition: {x: -136.44897, y: -89.81052}
+        zoom: 0.7600002
+      - fsmComponentID: -1186
+        fsmTemplate: {fileID: 0}
+        stateName: Sense Target Spot
+        stateNames:
+        - Sense Target Spot
+        transitionIndex: 0
+        scrollPosition: {x: -43, y: -66}
+        zoom: 1
+      - fsmComponentID: -1210
+        fsmTemplate: {fileID: 0}
+        stateName: Sense Target Spot
+        stateNames:
+        - Sense Target Spot
+        transitionIndex: 0
+        scrollPosition: {x: -43, y: -66}
+        zoom: 1
+      - fsmComponentID: 20996
+        fsmTemplate: {fileID: 0}
+        stateName: Move Left
+        stateNames:
+        - Move Left
+        transitionIndex: -1
+        scrollPosition: {x: -476.83264, y: -104.82492}
+        zoom: 1
+      - fsmComponentID: 21396
+        fsmTemplate: {fileID: 0}
+        stateName: 
+        stateNames:
+        - Spin Clockwise
+        transitionIndex: 0
+        scrollPosition: {x: -50, y: -75}
+        zoom: 1
+      - fsmComponentID: 21422
+        fsmTemplate: {fileID: 0}
+        stateName: 
+        stateNames:
+        - Shove
+        transitionIndex: 0
+        scrollPosition: {x: -50, y: -75}
+        zoom: 1
+      - fsmComponentID: 21304
         fsmTemplate: {fileID: 0}
         stateName: XMove
         stateNames:
         - XMove
         transitionIndex: 0
-        scrollPosition: {x: -90.86011, y: -79.34003}
-        zoom: 0.94000006
-      - fsmComponentID: 21280
-        fsmTemplate: {fileID: 0}
-        stateName: Ball Boost
-        stateNames:
-        - Ball Boost
-        transitionIndex: 0
-        scrollPosition: {x: -41.546875, y: 66.78125}
+        scrollPosition: {x: -36, y: -63}
         zoom: 1
-      - fsmComponentID: 21278
+      - fsmComponentID: 21328
         fsmTemplate: {fileID: 0}
-        stateName: Flip Right
+        stateName: Move Up
         stateNames:
-        - Flip Right
-        transitionIndex: -1
+        - Move Up
+        transitionIndex: 0
         scrollPosition: {x: -36, y: -63}
         zoom: 1
       recentlySelectedList:
-      - fsmComponentID: 21280
+      - fsmComponentID: 21328
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 21278
+      - fsmComponentID: 21304
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 21276
+      - fsmComponentID: -1234
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -1210
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 21396
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -1186
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 21422
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 20996
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
 --- !u!114 &20
@@ -930,9 +1000,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2042
+    x: 1927
     y: 73
-    width: 517
+    width: 632
     height: 1286
   m_ViewDataDictionary: {fileID: 0}
   Initialized: 1
